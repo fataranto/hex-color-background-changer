@@ -5,7 +5,7 @@
 document.querySelector(".btn").addEventListener("click", function () {
     let backColor = colorGenerator()
     document.querySelector("body").style.backgroundColor = backColor;
-    document.querySelector("h1").textContent = backColor;
+    document.querySelector("h1").textContent = "HEX COLOR: "+backColor;
     //console.log(colorGenerator());
 })
 
